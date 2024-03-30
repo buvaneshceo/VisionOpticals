@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".TitanActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="401dp"
+            android:layout_height="150dp"
+            android:src="@drawable/visionopticals"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center_horizontal"
+
+
+            ></ImageView>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:src="@drawable/titan"
+            android:layout_marginStart="5dp"
+            android:padding="2dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            ></ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="5">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardElevation="10dp"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/image1"
+                        android:src="@drawable/img_1">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="110dp"
+                        android:gravity="center"
+                        android:text="@string/titan1"></TextView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="140dp"
+                        android:gravity="center"
+                        android:text="@string/titan1Amount"></TextView>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/baseline_add_24"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginStart="140dp"></ImageView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardElevation="5dp"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/img_1">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="110dp"
+                        android:gravity="center"
+                        android:text="@string/titan1">
+                    </TextView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="140dp"
+                        android:gravity="center"
+                        android:text="@string/titan1Amount">
+                    </TextView>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/baseline_add_24"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginStart="140dp">
+                    </ImageView>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardElevation="10dp"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/img_1">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="110dp"
+                        android:gravity="center"
+                        android:text="@string/titan1"></TextView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="140dp"
+                        android:gravity="center"
+                        android:text="@string/titan1Amount"></TextView>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/baseline_add_24"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginStart="140dp"></ImageView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardElevation="5dp"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/img_1">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="110dp"
+                        android:gravity="center"
+                        android:text="@string/titan1"></TextView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="140dp"
+                        android:gravity="center"
+                        android:text="@string/titan1Amount"></TextView>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/baseline_add_24"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginStart="140dp"></ImageView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardElevation="5dp"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/img_1">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="110dp"
+                        android:gravity="center"
+                        android:text="@string/titan1"></TextView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="140dp"
+                        android:gravity="center"
+                        android:text="@string/titan1Amount"></TextView>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/baseline_add_24"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginStart="140dp"></ImageView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardElevation="5dp"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/img_1">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="110dp"
+                        android:gravity="center"
+                        android:text="@string/titan1"></TextView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="140dp"
+                        android:gravity="center"
+                        android:text="@string/titan1Amount"></TextView>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/baseline_add_24"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginStart="140dp"></ImageView>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardElevation="5dp"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/img_1">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="110dp"
+                        android:gravity="center"
+                        android:text="@string/titan1"></TextView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="140dp"
+                        android:gravity="center"
+                        android:text="@string/titan1Amount"></TextView>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/baseline_add_24"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginStart="140dp"></ImageView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardElevation="5dp"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/img_1">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="110dp"
+                        android:gravity="center"
+                        android:text="@string/titan1"></TextView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="140dp"
+                        android:gravity="center"
+                        android:text="@string/titan1Amount"></TextView>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/baseline_add_24"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginStart="140dp"></ImageView>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+    <LinearLayout
+        android:id="@+id/bottomBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@android:color/darker_gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_shopping_cart_24"
+            android:layout_marginTop="10dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/itemCountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 items added"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="5dp"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageButton
+            android:id="@+id/upArrowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="120dp"
+            android:onClick="showCartDetails"
+            android:src="@drawable/baseline_keyboard_arrow_up_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
